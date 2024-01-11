@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>属于我们的网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            color: #3498db;
+        }
+
+        #diary-entry {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        #image-preview {
+            margin-top: 20px;
+            max-width: 100%;
+        }
+    </style>
+
+<body>
+
+    <h1>独属于张露允和她宝宝Tony的网页记录簿</h1>
+
+    <div id="每一天的故事">
+        <h2>写下关于我们的点滴吧</h2>
+        <textarea id="entry-text" rows="5" placeholder="Write your diary entry..."></textarea>
+
+        <input type="file" id="image-input" accept="image/*">
+        <button onclick="uploadImage()">Upload Image</button>
+
+        <div id="image-preview"></div>
+    </div>
+</body> <img src="https://up.36992.com/pic/e3/20/8b/e3208b2be73adb6225e582a5d60c0151.jpg" 
+</html>
+
